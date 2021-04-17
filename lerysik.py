@@ -7,7 +7,7 @@ import random
 import time
 timing = time.time()
 while True:
-    if time.time() - timing >1.0:
+    if time.time() - timing >14400.0:
         timing = time.time()
         from telegram.ext import Updater
         def main():
